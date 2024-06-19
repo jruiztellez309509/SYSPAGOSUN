@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/caja_rapida2"
+        android:title="Caja rapida"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/move_fast_box"
+        />
+    <!--item
+        android:id="@+id/mov"
+        android:title="Movimientos"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/move_ments"
+        /-->
+</menu>

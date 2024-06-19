@@ -1,0 +1,862 @@
+[
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_ic_eye.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\ic_eye.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_save_key_cipher_text.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_save_key_cipher_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_print_bitmap.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_print_bitmap.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_dialog_swing_card_hint.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\dialog_swing_card_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_fragment_caja__rapida.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\fragment_caja__rapida.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_etc_stress_test_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_etc_stress_test_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_comm.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_comm.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_certificate.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_certificate.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_ca_certificate_manage.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_ca_certificate_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_sync.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_sync.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_save_key_tr31.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_save_key_tr31.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_percent_white.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_percent_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_screen.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_kb_beep_mode.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_kb_beep_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_print.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_blind_pinpad.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_blind_pinpad.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_ic.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_ic.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_logosyspago.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\logosyspago.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_right.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\right.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_scan.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_cardactive_and_data_ex_ctrcode_test_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_cardactive_and_data_ex_ctrcode_test_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_get_encrypt_serial_number.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_get_encrypt_serial_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_transmit_apdu_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_transmit_apdu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_antiexhaustive_mode.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_antiexhaustive_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_at24c.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_at24c.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_fast_actived.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_fast_actived.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_m1.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_m1.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_cash.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_cash.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\raw_ca.crt.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\raw\\ca.crt"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_scan_barcode.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_scan_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_ctx512.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_ctx512.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_sunmi_logo.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\sunmi_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_data_decrypt.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_data_decrypt.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_save_aid_capk.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_save_aid_capk.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_other_pcd_param.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_other_pcd_param.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_date_time.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_date_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_network_manage.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_network_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_left.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\left.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_dukpt_save_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_dukpt_save_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_get_device_certificate.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_get_device_certificate.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_init_menu.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_init_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_pvk_recover.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_pvk_recover.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_biometric.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_biometric.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_pad_vi.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_pad_vi.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_normal_apdu_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_normal_apdu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_poll_interval_time.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_poll_interval_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_calc_hash.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_calc_hash.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mifareplus.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mifareplus.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_fast_boc_diseable.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_fast_boc_diseable.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mag_en.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mag_en.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_dynamic_permission_and_wifi_proxy.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_dynamic_permission_and_wifi_proxy.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_other_version.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_other_version.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_toss.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_toss.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_hsm_export_key_under_kek.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_hsm_export_key_under_kek.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_phone_manage.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_phone_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-zh-rCN-xhdpi_card_ic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-zh-rCN-xhdpi\\card_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mag_preset_track.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mag_preset_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_other.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_led.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_led.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_rnib_switch_track_off.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\rnib_switch_track_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_pad_customized.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_pad_customized.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_buzzer.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_buzzer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_print_text.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_print_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-zh-rCN-xhdpi_card_nfc_ic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-zh-rCN-xhdpi\\card_nfc_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pass_apdu_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pass_apdu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_dev.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_dev.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_hsm_key_share_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_hsm_key_share_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_inject_device_cert_pvt_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_inject_device_cert_pvt_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_delete_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_delete_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xxhdpi_ic_right_gray.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xxhdpi\\ic_right_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_tr34_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_tr34_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_rsa_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_rsa_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_apacs_mac.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_apacs_mac.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xhdpi_card_nfc.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xhdpi\\card_nfc.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_get_card_exist_status.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_get_card_exist_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_shared_lib.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_shared_lib.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_shape_button.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\shape_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_scan_result.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_scan_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xxhdpi_ic_back_white.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xxhdpi\\ic_back_white.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_shadow.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_button_selected.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\button_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_transmission_stress_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_transmission_stress_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_dialog_loading.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xxhdpi_ui_ic_left_white.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xxhdpi\\ui_ic_left_white.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_trazado_364.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\trazado_364.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_rtc.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_rtc.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mifare_desfire_ev2.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mifare_desfire_ev2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_etc_trade_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_etc_trade_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_gb2312.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_gb2312.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_calc_mac.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_calc_mac.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xhdpi_card_ic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xhdpi\\card_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_move_fast_box.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\move_fast_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_rnib_switch_track_selector.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\rnib_switch_track_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_ped.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_ped.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_comm_wifi.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_comm_wifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_callback_time.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_callback_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_mifare_psam_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_mifare_psam_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_sys_set_wakeup.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_sys_set_wakeup.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_other.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_liteso.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_liteso.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_dukpt_ksn.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_dukpt_ksn.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_shape_button2.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\shape_button2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_edit_bg_no_click.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\edit_bg_no_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_rupaycard_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_rupaycard_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_cash.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\cash.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_ic.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_ic.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_common_item.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\common_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_felica.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_felica.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_comm.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_comm.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_edit_bg_click.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\edit_bg_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_inject_ciphertext_key_under_rsa.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_inject_ciphertext_key_under_rsa.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_hsm_rsa_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_hsm_rsa_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_get_kcv.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_get_kcv.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mag_encrypt_pan.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mag_encrypt_pan.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-zh-rCN-xhdpi_card_magnetic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-zh-rCN-xhdpi\\card_magnetic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_percent.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_percent.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_cert_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_cert_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_sam.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_sam.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_rsa_recover.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_rsa_recover.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_extended_apdu.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_extended_apdu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv_mag.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv_mag.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_default_fp.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\default_fp.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_at88sc_1608.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_at88sc_1608.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_lmk_package.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_lmk_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_cert_pvt_key_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_cert_pvt_key_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_print_config.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_print_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_pad_customized_for_banjul.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_pad_customized_for_banjul.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ajustes_btn.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ajustes_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xhdpi_card_nfc_ic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xhdpi\\card_nfc_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_comm_serialport.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_comm_serialport.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_savekey_ciphertext_under_rsa.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_savekey_ciphertext_under_rsa.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_dukpt_calc_mac.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_dukpt_calc_mac.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mifare_ultralight_c.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mifare_ultralight_c.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_set_sys_param.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_set_sys_param.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_ui_common_title.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\ui_common_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_baron.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_baron.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_hce.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_hce.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_nfc.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_nfc.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_mag_card_round_poll_times.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_mag_card_round_poll_times.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_password_inputed.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\password_inputed.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_inject_sym_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_inject_sym_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_view_fix_password_keyboard.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\view_fix_password_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-zh-rCN-xhdpi_card_nfc.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-zh-rCN-xhdpi\\card_nfc.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_innovatron.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_innovatron.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_sm2_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_sm2_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_mifareutralightev1_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_mifareutralightev1_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_etc.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_etc.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_sle4442_4428.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_sle4442_4428.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_customize_function_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_customize_function_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_save_key_plain_text.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_save_key_plain_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mag.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mag.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_pad_customized_vi.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_pad_customized_vi.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_etc_search_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_etc_search_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_dukpt_aes_save_key.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_dukpt_aes_save_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_image_porcent.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_image_porcent.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_rnib_switch_track_on.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\rnib_switch_track_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_get_sys_param.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_get_sys_param.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_hsmdev_cert_manager.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_hsmdev_cert_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_other_language.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_other_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_security_data_encrypt.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_security_data_encrypt.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_mifareplus_transmit_apdu.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_mifareplus_transmit_apdu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_edit_bg.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\edit_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_error.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\error.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_etc_i2c_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_etc_i2c_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_multi_thread_test.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_multi_thread_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_sri_4k.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_sri_4k.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_hsm_save_key_under_kek.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_hsm_save_key_under_kek.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_ping_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_ping_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_schedule_reboot.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_schedule_reboot.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_m112_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_m112_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_screen_model.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_screen_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_basic_cpu_info.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_basic_cpu_info.xml"
+    },
+    {
+        "merged": "com.sm.syspago.se.app-merged_res-35:/layout_fragment_caja__rapida.xml.flat",
+        "source": "com.sm.syspago.se.app-main-37:/layout/fragment_caja__rapida.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-xhdpi_card_magnetic.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-xhdpi\\card_magnetic.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_select_button.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\select_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_card_composite.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_card_composite.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_pin_pad.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_pin_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_comm_usb.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_comm_usb.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_device_manage.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_device_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_emv.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_emv.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_keyboard_clean.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\keyboard_clean.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_setting_item.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\setting_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_e_signature.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_e_signature.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_tax_layout.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_tax_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_start_input_pin.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_start_input_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\layout_activity_tamper_log.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\layout\\activity_tamper_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable-hdpi_password_def.png.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable-hdpi\\password_def.png"
+    },
+    {
+        "merged": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-merged_res-35:\\drawable_grupo_1511.xml.flat",
+        "source": "C:\\Users\\jruizsystienda\\.gradle\\daemon\\7.3.3\\com.sm.syspago.se.app-main-37:\\drawable\\grupo_1511.xml"
+    }
+]

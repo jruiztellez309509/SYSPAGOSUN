@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    <string-array name="select_dates">
+        <item>Hoy</item>
+        <item>Rango de fecha</item>
+        <item></item>
+    </string-array>
+    <string-array name="select_optionuser">
+        <item>Versión 1.34.35</item>
+        <item>Flujo Saldo</item>
+        <item>Logs</item>
+        <item>Cerrar Sesíon</item>
+    </string-array>
+</resources>

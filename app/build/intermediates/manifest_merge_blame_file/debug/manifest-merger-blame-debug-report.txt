@@ -1,0 +1,629 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sm.syspago.se"
+4    android:versionCode="256"
+5    android:versionName="v2.3.18" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:8:5-65
+12-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:8:22-62
+13    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+13-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:9:5-86
+13-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:9:22-83
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:10:5-81
+14-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:11:5-80
+15-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:12:5-69
+16-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:12:22-66
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:13:5-81
+17-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:14:5-79
+18-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:14:22-76
+19    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+19-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:15:5-72
+19-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:15:22-69
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:16:5-79
+20-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:16:22-76
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:17:5-68
+21-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:17:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:18:5-74
+22-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:18:22-71
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:19:5-71
+23-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:19:22-68
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:20:5-76
+24-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:20:22-73
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:21:5-80
+25-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:21:22-77
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:22:5-75
+26-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:22:22-72
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:23:5-66
+27-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:23:22-63
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:24:5-78
+28-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:24:22-75
+29    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+29-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:25:5-80
+29-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:25:22-77
+30    <uses-permission android:name="com.sunmi.perm.LED" />
+30-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:27:5-58
+30-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:27:22-55
+31    <uses-permission android:name="com.sunmi.perm.MSR" />
+31-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:28:5-58
+31-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:28:22-55
+32    <uses-permission android:name="com.sunmi.perm.ICC" />
+32-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:29:5-58
+32-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:29:22-55
+33    <uses-permission android:name="com.sunmi.perm.PINPAD" />
+33-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:30:5-61
+33-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:30:22-58
+34    <uses-permission android:name="com.sunmi.perm.SECURITY" />
+34-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:31:5-63
+34-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:31:22-60
+35    <uses-permission android:name="com.sunmi.perm.CONTACTLESS_CARD" />
+35-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:32:5-71
+35-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:32:22-68
+36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+36-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:22:5-75
+36-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:22:22-72
+37    <uses-permission android:name="android.permission.SET_TIME" />
+37-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:34:5-67
+37-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:34:22-64
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:35:5-68
+38-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:35:22-65
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:10:5-81
+39-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:10:22-78
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+40-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:11:5-80
+40-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:11:22-77
+41    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+41-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:38:5-40:53
+41-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:39:9-61
+42
+43    <queries>
+43-->[PayLib-release-2.0.14.aar] C:\Users\jruizsystienda\.gradle\caches\transforms-3\d8de0255c31b018c1be2f8c7f30ae5e4\transformed\PayLib-release-2.0.14\AndroidManifest.xml:9:5-11:15
+44        <package android:name="com.sunmi.pay.hardware_v3" />
+44-->[PayLib-release-2.0.14.aar] C:\Users\jruizsystienda\.gradle\caches\transforms-3\d8de0255c31b018c1be2f8c7f30ae5e4\transformed\PayLib-release-2.0.14\AndroidManifest.xml:10:9-61
+44-->[PayLib-release-2.0.14.aar] C:\Users\jruizsystienda\.gradle\caches\transforms-3\d8de0255c31b018c1be2f8c7f30ae5e4\transformed\PayLib-release-2.0.14\AndroidManifest.xml:10:18-58
+45    </queries>
+46
+47    <permission
+47-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+48        android:name="com.sm.syspago.se.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.sm.syspago.se.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:42:5-217:19
+54        android:name="com.sm.syspago.se.MyApplication"
+54-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:43:9-38
+55        android:allowBackup="true"
+55-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:44:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.9.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+57        android:debuggable="true"
+58        android:icon="@drawable/ic_dev"
+58-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:45:9-40
+59        android:label="@string/app_name"
+59-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:46:9-41
+60        android:roundIcon="@drawable/ic_dev"
+60-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:47:9-45
+61        android:supportsRtl="true"
+61-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:48:9-35
+62        android:testOnly="true"
+63        android:theme="@style/Base.Theme.Syspago" >
+63-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:49:9-50
+64        <activity
+64-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:51:9-53:40
+65            android:name="com.sm.syspago.se.Views.InitMenu"
+65-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:52:13-43
+66            android:exported="false" />
+66-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:53:13-37
+67        <activity
+67-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:54:9-62:20
+68            android:name="com.sm.syspago.se.MainActivity"
+68-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:55:13-41
+69            android:exported="true" >
+69-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:56:13-36
+70            <intent-filter>
+70-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:57:13-61:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:58:17-69
+71-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:58:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:60:17-77
+73-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:60:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity android:name="com.sm.syspago.se.basic.LedActivity" />
+76-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:63:9-55
+76-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:63:19-52
+77        <activity android:name="com.sm.syspago.se.basic.BasicActivity" />
+77-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:64:9-57
+77-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:64:19-54
+78        <activity android:name="com.sm.syspago.se.basic.BuzzerActivity" />
+78-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:65:9-58
+78-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:65:19-55
+79        <activity android:name="com.sm.syspago.se.basic.GetSysParamActivity" />
+79-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:66:9-63
+79-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:66:19-60
+80        <activity android:name="com.sm.syspago.se.basic.SetSysParamActivity" />
+80-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:67:9-63
+80-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:67:19-60
+81        <activity android:name="com.sm.syspago.se.basic.ScreenModelActivity" />
+81-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:68:9-63
+81-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:68:19-60
+82        <activity android:name="com.sm.syspago.se.basic.DynamicPermissionAndWifiProxyActivity" />
+82-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:69:9-81
+82-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:69:19-78
+83        <activity android:name="com.sm.syspago.se.basic.CACertManageActivity" />
+83-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:70:9-64
+83-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:70:19-61
+84        <activity android:name="com.sm.syspago.se.basic.CPUInfoActivity" />
+84-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:71:9-59
+84-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:71:19-56
+85        <activity android:name="com.sm.syspago.se.basic.ScheduleRebootActivity" />
+85-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:72:9-66
+85-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:72:19-63
+86        <activity android:name="com.sm.syspago.se.basic.CustomizeFunctionKeyActivity" />
+86-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:73:9-72
+86-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:73:19-69
+87        <activity android:name="com.sm.syspago.se.basic.LowMemoryKillerActivity" />
+87-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:74:9-67
+87-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:74:19-64
+88        <activity android:name="com.sm.syspago.se.basic.PinAntiExhaustiveMode" />
+88-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:75:9-65
+88-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:75:19-62
+89        <activity android:name="com.sm.syspago.se.basic.EMVCallbackTimeActivity" />
+89-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:76:9-67
+89-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:76:19-64
+90        <activity android:name="com.sm.syspago.se.basic.SysSetWakeupActivity" />
+90-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:77:9-64
+90-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:77:19-61
+91        <activity android:name="com.sm.syspago.se.basic.KBBeepModeActivity" />
+91-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:78:9-62
+91-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:78:19-59
+92        <activity android:name="com.sm.syspago.se.basic.TransmissionTestActivity" />
+92-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:79:9-68
+92-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:79:19-65
+93        <activity android:name="com.sm.syspago.se.basic.SharedLibActivity" />
+93-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:80:9-61
+93-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:80:19-58
+94        <activity android:name="com.sm.syspago.se.basic.LitesoActivity" />
+94-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:81:9-58
+94-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:81:19-55
+95        <activity android:name="com.sm.syspago.se.basic.NetworkManageActivity" />
+95-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:82:9-65
+95-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:82:19-62
+96        <activity android:name="com.sm.syspago.se.basic.PhoneManageActivity" />
+96-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:83:9-63
+96-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:83:19-60
+97        <activity android:name="com.sm.syspago.se.basic.DeviceManageActivity" />
+97-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:84:9-64
+97-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:84:19-61
+98        <activity android:name="com.sm.syspago.se.basic.PedActivity" />
+98-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:85:9-55
+98-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:85:19-52
+99        <activity android:name="com.sm.syspago.se.basic.RTCBatterVolActivity" />
+99-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:86:9-64
+99-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:86:19-61
+100        <activity android:name="com.sm.syspago.se.biometric.BiometricActivity" />
+100-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:87:9-65
+100-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:87:19-62
+101        <activity android:name="com.sm.syspago.se.card.CardActivity" />
+101-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:88:9-55
+101-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:88:19-52
+102        <activity android:name="com.sm.syspago.se.card.MagActivity" />
+102-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:89:9-54
+102-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:89:19-51
+103        <activity android:name="com.sm.syspago.se.card.MagPresetTrackActivity" />
+103-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:90:9-65
+103-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:90:19-62
+104        <activity android:name="com.sm.syspago.se.card.MagEncActivity" />
+104-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:91:9-57
+104-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:91:19-54
+105        <activity android:name="com.sm.syspago.se.card.MagTrack2EncActivity" />
+105-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:92:9-63
+105-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:92:19-60
+106        <activity android:name="com.sm.syspago.se.card.ICActivity" />
+106-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:93:9-53
+106-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:93:19-50
+107        <activity android:name="com.sm.syspago.se.card.NFCActivity" />
+107-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:94:9-54
+107-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:94:19-51
+108        <activity android:name="com.sm.syspago.se.card.CompositeActivity" />
+108-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:95:9-60
+108-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:95:19-57
+109        <activity android:name="com.sm.syspago.se.card.M1Activity" />
+109-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:96:9-53
+109-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:96:19-50
+110        <activity
+110-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:97:9-100:57
+111            android:name="com.sm.syspago.se.card.SAMActivity"
+111-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:98:13-45
+112            android:screenOrientation="portrait"
+112-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:99:13-49
+113            android:windowSoftInputMode="stateHidden" />
+113-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:100:13-54
+114        <activity android:name="com.sm.syspago.se.card.FelicaActivity" />
+114-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:101:9-57
+114-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:101:19-54
+115        <activity android:name="com.sm.syspago.se.card.MifareUltralightCActivity" />
+115-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:102:9-68
+115-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:102:19-65
+116        <activity android:name="com.sm.syspago.se.card.MifareUtralightEv1Activity" />
+116-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:103:9-69
+116-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:103:19-66
+117        <activity android:name="com.sm.syspago.se.card.MifareDesfireEv2Activity" />
+117-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:104:9-67
+117-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:104:19-64
+118        <activity
+118-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:105:9-107:57
+119            android:name="com.sm.syspago.se.card.NormalApduActivity"
+119-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:106:13-52
+120            android:windowSoftInputMode="stateHidden" />
+120-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:107:13-54
+121        <activity
+121-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:108:9-110:57
+122            android:name="com.sm.syspago.se.card.TransmitApduActivity"
+122-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:109:13-54
+123            android:windowSoftInputMode="stateHidden" />
+123-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:110:13-54
+124        <activity android:name="com.sm.syspago.se.card.ExtendedApduActivity" />
+124-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:111:9-63
+124-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:111:19-60
+125        <activity
+125-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:112:9-114:57
+126            android:name="com.sm.syspago.se.card.PassApduActivity"
+126-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:113:13-50
+127            android:windowSoftInputMode="stateHidden" />
+127-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:114:13-54
+128        <activity android:name="com.sm.syspago.se.card.MifarePlusActivity" />
+128-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:115:9-61
+128-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:115:19-58
+129        <activity android:name="com.sm.syspago.se.card.MifarePlusTransmitApduActivity" />
+129-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:116:9-73
+129-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:116:19-70
+130        <activity android:name="com.sm.syspago.se.card.MifareAuthedByPSAMActivity" />
+130-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:117:9-69
+130-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:117:19-66
+131        <activity android:name="com.sm.syspago.se.card.SLE4442_4428Actviity" />
+131-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:118:9-63
+131-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:118:19-60
+132        <activity android:name="com.sm.syspago.se.card.AT24CActivity" />
+132-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:119:9-56
+132-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:119:19-53
+133        <activity android:name="com.sm.syspago.se.card.AT88SCActivity" />
+133-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:120:9-57
+133-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:120:19-54
+134        <activity android:name="com.sm.syspago.se.card.CTX512Activity" />
+134-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:121:9-57
+134-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:121:19-54
+135        <activity android:name="com.sm.syspago.se.card.SRIActivity" />
+135-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:122:9-54
+135-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:122:19-51
+136        <activity android:name="com.sm.syspago.se.card.CtrCodeAndMultiApduActivity" />
+136-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:123:9-70
+136-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:123:19-67
+137        <activity android:name="com.sm.syspago.se.card.GetCardExistStatusActivity" />
+137-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:124:9-69
+137-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:124:19-66
+138        <activity android:name="com.sm.syspago.se.card.HCETestActivity" />
+138-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:125:9-58
+138-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:125:19-55
+139        <activity android:name="com.sm.syspago.se.card.PingActivity" />
+139-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:126:9-55
+139-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:126:19-52
+140        <activity android:name="com.sm.syspago.se.card.InnovatronActivity" />
+140-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:127:9-61
+140-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:127:19-58
+141        <activity android:name="com.sm.syspago.se.security.SecurityActivity" />
+141-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:128:9-63
+141-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:128:19-60
+142        <activity android:name="com.sm.syspago.se.security.SaveKeyPlainTextActivity" />
+142-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:129:9-71
+142-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:129:19-68
+143        <activity android:name="com.sm.syspago.se.security.SaveKeyCipherTextActivity" />
+143-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:130:9-72
+143-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:130:19-69
+144        <activity android:name="com.sm.syspago.se.security.InjectPlainTextKeyActivity" />
+144-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:131:9-73
+144-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:131:19-70
+145        <activity android:name="com.sm.syspago.se.security.InjectCiphertextKeyActivity" />
+145-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:132:9-74
+145-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:132:19-71
+146        <activity android:name="com.sm.syspago.se.security.CalcMacActivity" />
+146-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:133:9-62
+146-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:133:19-59
+147        <activity android:name="com.sm.syspago.se.security.DataEncryptActivity" />
+147-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:134:9-66
+147-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:134:19-63
+148        <activity android:name="com.sm.syspago.se.security.DataDecryptActivity" />
+148-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:135:9-66
+148-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:135:19-63
+149        <activity android:name="com.sm.syspago.se.security.GetEncryptBySerialNumberActivity" />
+149-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:136:9-79
+149-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:136:19-76
+150        <activity android:name="com.sm.syspago.se.security.DukptSaveKeyActivity" />
+150-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:137:9-67
+150-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:137:19-64
+151        <activity android:name="com.sm.syspago.se.security.DukptCalcMacActivity" />
+151-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:138:9-67
+151-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:138:19-64
+152        <activity android:name="com.sm.syspago.se.security.DukptDataEncryptActivity" />
+152-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:139:9-71
+152-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:139:19-68
+153        <activity android:name="com.sm.syspago.se.security.DukptDataDecryptActivity" />
+153-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:140:9-71
+153-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:140:19-68
+154        <activity android:name="com.sm.syspago.se.security.DukptKSNOperateActivity" />
+154-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:141:9-70
+154-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:141:19-67
+155        <activity android:name="com.sm.syspago.se.security.RSATestActivity" />
+155-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:142:9-62
+155-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:142:19-59
+156        <activity android:name="com.sm.syspago.se.security.RSARecoverActivity" />
+156-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:143:9-65
+156-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:143:19-62
+157        <activity android:name="com.sm.syspago.se.security.SaveTR31KeyActivity" />
+157-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:144:9-66
+157-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:144:19-63
+158        <activity android:name="com.sm.syspago.se.security.DeleteKeyActivity" />
+158-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:145:9-64
+158-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:145:19-61
+159        <activity android:name="com.sm.syspago.se.security.DukptAesSaveKeyActivity" />
+159-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:146:9-70
+159-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:146:19-67
+160        <activity android:name="com.sm.syspago.se.security.SM2TestActivity" />
+160-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:147:9-62
+160-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:147:19-59
+161        <activity android:name="com.sm.syspago.se.security.CalcHashActivity" />
+161-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:148:9-63
+161-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:148:19-60
+162        <activity android:name="com.sm.syspago.se.security.HsmAndDeviceCertificateTestActivity" />
+162-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:149:9-82
+162-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:149:19-79
+163        <activity android:name="com.sm.syspago.se.security.DeviceCertPvkTestActivity" />
+163-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:150:9-72
+163-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:150:19-69
+164        <activity android:name="com.sm.syspago.se.security.InjectDeviceCertPvkActivity" />
+164-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:151:9-74
+164-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:151:19-71
+165        <activity android:name="com.sm.syspago.se.security.GetDeviceCertificateActivity" />
+165-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:152:9-75
+165-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:152:19-72
+166        <activity android:name="com.sm.syspago.se.security.DevicePvkRecoverActivity" />
+166-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:153:9-71
+166-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:153:19-68
+167        <activity android:name="com.sm.syspago.se.security.DeviceCertManagerActivity" />
+167-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:154:9-72
+167-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:154:19-69
+168        <activity android:name="com.sm.syspago.se.security.HsmKeyShareTestActivity" />
+168-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:155:9-70
+168-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:155:19-67
+169        <activity android:name="com.sm.syspago.se.security.HsmRsaTestActivity" />
+169-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:156:9-65
+169-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:156:19-62
+170        <activity android:name="com.sm.syspago.se.security.GetKeyCheckValueActivity" />
+170-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:157:9-71
+170-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:157:19-68
+171        <activity android:name="com.sm.syspago.se.security.APACSMacTestActivity" />
+171-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:158:9-67
+171-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:158:19-64
+172        <activity android:name="com.sm.syspago.se.security.HsmSaveKeyUnderKEKActivity" />
+172-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:159:9-73
+172-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:159:19-70
+173        <activity android:name="com.sm.syspago.se.security.HsmExportKeyUnderKEKActivity" />
+173-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:160:9-75
+173-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:160:19-72
+174        <activity android:name="com.sm.syspago.se.security.SaveKeyCipherTextUnderRsaActivity" />
+174-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:161:9-80
+174-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:161:19-77
+175        <activity android:name="com.sm.syspago.se.security.InjectCiphertextKeyUnderRsaActivity" />
+175-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:162:9-82
+175-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:162:19-79
+176        <activity android:name="com.sm.syspago.se.security.InjectSymKeyActivity" />
+176-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:163:9-67
+176-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:163:19-64
+177        <activity android:name="com.sm.syspago.se.security.GetSetDeviceCertificateActivity" />
+177-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:164:9-78
+177-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:164:19-75
+178        <activity android:name="com.sm.syspago.se.security.TR34TestActivity" />
+178-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:165:9-63
+178-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:165:19-60
+179        <activity android:name="com.sm.syspago.se.pin.PinActivity" />
+179-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:166:9-53
+179-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:166:19-50
+180        <activity android:name="com.sm.syspago.se.pin.PinPadActivity" />
+180-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:167:9-56
+180-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:167:19-53
+181        <activity android:name="com.sm.syspago.se.pin.CustomizedPinPadActivity" />
+181-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:168:9-66
+181-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:168:19-63
+182        <activity android:name="com.sm.syspago.se.pin.CustomizedPinPadActivityForBanjul" />
+182-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:169:9-75
+182-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:169:19-72
+183        <activity android:name="com.sm.syspago.se.pin.VisualImpairmentPinActivity" />
+183-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:170:9-69
+183-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:170:19-66
+184        <activity android:name="com.sm.syspago.se.pin.CustomizedVisualImpairmentPinActivity" />
+184-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:171:9-79
+184-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:171:19-76
+185        <activity android:name="com.sm.syspago.se.pin.StartInputPinActivity" />
+185-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:172:9-63
+185-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:172:19-60
+186        <activity android:name="com.sm.syspago.se.emv.EMVActivity" />
+186-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:173:9-53
+186-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:173:19-50
+187        <activity android:name="com.sm.syspago.se.emv.ICProcessActivity" />
+187-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:174:9-59
+187-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:174:19-56
+188        <activity android:name="com.sm.syspago.se.emv.RuPayCardActivity" />
+188-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:175:9-59
+188-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:175:19-56
+189        <activity android:name="com.sm.syspago.se.emv.MagProcessActivity" />
+189-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:176:9-60
+189-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:176:19-57
+190        <activity android:name="com.sm.syspago.se.emv.TossEmvActivity" />
+190-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:177:9-57
+190-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:177:19-54
+191        <activity android:name="com.sm.syspago.se.emv.EmvOtherActivity" />
+191-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:178:9-58
+191-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:178:19-55
+192        <activity android:name="com.sm.syspago.se.emv.EMVTestSaveAidCapkActivity" />
+192-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:179:9-68
+192-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:179:19-65
+193        <activity android:name="com.sm.syspago.se.emv.VisualImpairmentProcessActivity" />
+193-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:180:9-73
+193-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:180:19-70
+194        <activity android:name="com.sm.syspago.se.tax.TaxTestActivity" />
+194-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:181:9-57
+194-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:181:19-54
+195        <activity android:name="com.sm.syspago.se.print.PrintActivity" />
+195-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:182:9-57
+195-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:182:19-54
+196        <activity android:name="com.sm.syspago.se.print.PrintTextActivity" />
+196-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:183:9-61
+196-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:183:19-58
+197        <activity android:name="com.sm.syspago.se.print.PrintConfigActivity" />
+197-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:184:9-63
+197-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:184:19-60
+198        <activity android:name="com.sm.syspago.se.print.PrintBitmapActivity" />
+198-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:185:9-63
+198-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:185:19-60
+199        <activity android:name="com.sm.syspago.se.etc.ETCActivity" />
+199-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:186:9-53
+199-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:186:19-50
+200        <activity
+200-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:187:9-189:57
+201            android:name="com.sm.syspago.se.etc.I2CDataExchangeActivity"
+201-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:188:13-56
+202            android:windowSoftInputMode="stateHidden" />
+202-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:189:13-54
+203        <activity
+203-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:190:9-192:57
+204            android:name="com.sm.syspago.se.etc.SearchETCDeviceActivity"
+204-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:191:13-56
+205            android:windowSoftInputMode="stateHidden" />
+205-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:192:13-54
+206        <activity
+206-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:193:9-195:57
+207            android:name="com.sm.syspago.se.etc.ETCStressTestActivity"
+207-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:194:13-54
+208            android:windowSoftInputMode="stateHidden" />
+208-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:195:13-54
+209        <activity
+209-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:196:9-198:57
+210            android:name="com.sm.syspago.se.etc.ETCTradeActivity"
+210-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:197:13-49
+211            android:windowSoftInputMode="stateHidden" />
+211-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:198:13-54
+212        <activity android:name="com.sm.syspago.se.m112.M112Activity" />
+212-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:199:9-55
+212-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:199:19-52
+213        <activity android:name="com.sm.syspago.se.other.OtherActivity" />
+213-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:200:9-57
+213-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:200:19-54
+214        <activity android:name="com.sm.syspago.se.other.VersionActivity" />
+214-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:201:9-59
+214-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:201:19-56
+215        <activity android:name="com.sm.syspago.se.other.LanguageActivity" />
+215-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:202:9-60
+215-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:202:19-57
+216        <activity android:name="com.sm.syspago.se.other.TamperLogActivity" />
+216-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:203:9-61
+216-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:203:19-58
+217        <activity android:name="com.sm.syspago.se.other.MultiThreadTestActivity" />
+217-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:204:9-67
+217-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:204:19-64
+218        <activity android:name="com.sm.syspago.se.other.ESignatureActivity" />
+218-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:205:9-62
+218-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:205:19-59
+219        <activity android:name="com.sm.syspago.se.other.ScreenActivity" />
+219-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:206:9-58
+219-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:206:19-55
+220        <activity android:name="com.sm.syspago.se.other.GB2312Activity" />
+220-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:207:9-58
+220-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:207:19-55
+221        <activity android:name="com.sm.syspago.se.other.SetTimeDateActivity" />
+221-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:208:9-63
+221-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:208:19-60
+222        <activity android:name="com.sm.syspago.se.other.SettingActivity" />
+222-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:209:9-59
+222-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:209:19-56
+223        <activity android:name="com.sm.syspago.se.other.DeviceCommActivity" />
+223-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:210:9-62
+223-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:210:19-59
+224        <activity android:name="com.sm.syspago.se.other.PCDParamActivity" />
+224-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:211:9-60
+224-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:211:19-57
+225        <activity android:name="com.sm.syspago.se.other.CardPollIntervalTimeActivity" />
+225-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:212:9-72
+225-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:212:19-69
+226        <activity android:name="com.sm.syspago.se.other.MagCardRoundPollTimesActivity" />
+226-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:213:9-73
+226-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:213:19-70
+227        <activity android:name="com.sm.syspago.se.scan.ScanActivity" />
+227-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:214:9-55
+227-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:214:19-52
+228        <activity android:name="com.sm.syspago.se.scan.ScanResultActivity" />
+228-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:215:9-61
+228-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:215:19-58
+229        <activity android:name="com.sm.syspago.se.scan.BarcodeActivity" />
+229-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:216:9-58
+229-->C:\Users\jruizsystienda\Downloads\SUNMI\SyspagoSUNMI\SYSPAGOSUN\app\src\main\AndroidManifest.xml:216:19-55
+230
+231        <provider
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+232            android:name="androidx.startup.InitializationProvider"
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+233            android:authorities="com.sm.syspago.se.androidx-startup"
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+234            android:exported="false" >
+234-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+235            <meta-data
+235-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+237                android:value="androidx.startup" />
+237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jruizsystienda\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jruizsystienda\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+239                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jruizsystienda\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+240                android:value="androidx.startup" />
+240-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jruizsystienda\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+241        </provider>
+242    </application>
+243
+244</manifest>

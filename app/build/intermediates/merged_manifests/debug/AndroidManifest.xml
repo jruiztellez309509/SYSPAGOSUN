@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sm.syspago.se"
+    android:versionCode="256"
+    android:versionName="v2.3.18" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="com.sunmi.perm.LED" />
+    <uses-permission android:name="com.sunmi.perm.MSR" />
+    <uses-permission android:name="com.sunmi.perm.ICC" />
+    <uses-permission android:name="com.sunmi.perm.PINPAD" />
+    <uses-permission android:name="com.sunmi.perm.SECURITY" />
+    <uses-permission android:name="com.sunmi.perm.CONTACTLESS_CARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SET_TIME" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <queries>
+        <package android:name="com.sunmi.pay.hardware_v3" />
+    </queries>
+
+    <permission
+        android:name="com.sm.syspago.se.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sm.syspago.se.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.sm.syspago.se.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_dev"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_dev"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Base.Theme.Syspago" >
+        <activity
+            android:name="com.sm.syspago.se.Views.InitMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.sm.syspago.se.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sm.syspago.se.basic.LedActivity" />
+        <activity android:name="com.sm.syspago.se.basic.BasicActivity" />
+        <activity android:name="com.sm.syspago.se.basic.BuzzerActivity" />
+        <activity android:name="com.sm.syspago.se.basic.GetSysParamActivity" />
+        <activity android:name="com.sm.syspago.se.basic.SetSysParamActivity" />
+        <activity android:name="com.sm.syspago.se.basic.ScreenModelActivity" />
+        <activity android:name="com.sm.syspago.se.basic.DynamicPermissionAndWifiProxyActivity" />
+        <activity android:name="com.sm.syspago.se.basic.CACertManageActivity" />
+        <activity android:name="com.sm.syspago.se.basic.CPUInfoActivity" />
+        <activity android:name="com.sm.syspago.se.basic.ScheduleRebootActivity" />
+        <activity android:name="com.sm.syspago.se.basic.CustomizeFunctionKeyActivity" />
+        <activity android:name="com.sm.syspago.se.basic.LowMemoryKillerActivity" />
+        <activity android:name="com.sm.syspago.se.basic.PinAntiExhaustiveMode" />
+        <activity android:name="com.sm.syspago.se.basic.EMVCallbackTimeActivity" />
+        <activity android:name="com.sm.syspago.se.basic.SysSetWakeupActivity" />
+        <activity android:name="com.sm.syspago.se.basic.KBBeepModeActivity" />
+        <activity android:name="com.sm.syspago.se.basic.TransmissionTestActivity" />
+        <activity android:name="com.sm.syspago.se.basic.SharedLibActivity" />
+        <activity android:name="com.sm.syspago.se.basic.LitesoActivity" />
+        <activity android:name="com.sm.syspago.se.basic.NetworkManageActivity" />
+        <activity android:name="com.sm.syspago.se.basic.PhoneManageActivity" />
+        <activity android:name="com.sm.syspago.se.basic.DeviceManageActivity" />
+        <activity android:name="com.sm.syspago.se.basic.PedActivity" />
+        <activity android:name="com.sm.syspago.se.basic.RTCBatterVolActivity" />
+        <activity android:name="com.sm.syspago.se.biometric.BiometricActivity" />
+        <activity android:name="com.sm.syspago.se.card.CardActivity" />
+        <activity android:name="com.sm.syspago.se.card.MagActivity" />
+        <activity android:name="com.sm.syspago.se.card.MagPresetTrackActivity" />
+        <activity android:name="com.sm.syspago.se.card.MagEncActivity" />
+        <activity android:name="com.sm.syspago.se.card.MagTrack2EncActivity" />
+        <activity android:name="com.sm.syspago.se.card.ICActivity" />
+        <activity android:name="com.sm.syspago.se.card.NFCActivity" />
+        <activity android:name="com.sm.syspago.se.card.CompositeActivity" />
+        <activity android:name="com.sm.syspago.se.card.M1Activity" />
+        <activity
+            android:name="com.sm.syspago.se.card.SAMActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.sm.syspago.se.card.FelicaActivity" />
+        <activity android:name="com.sm.syspago.se.card.MifareUltralightCActivity" />
+        <activity android:name="com.sm.syspago.se.card.MifareUtralightEv1Activity" />
+        <activity android:name="com.sm.syspago.se.card.MifareDesfireEv2Activity" />
+        <activity
+            android:name="com.sm.syspago.se.card.NormalApduActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.sm.syspago.se.card.TransmitApduActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.sm.syspago.se.card.ExtendedApduActivity" />
+        <activity
+            android:name="com.sm.syspago.se.card.PassApduActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.sm.syspago.se.card.MifarePlusActivity" />
+        <activity android:name="com.sm.syspago.se.card.MifarePlusTransmitApduActivity" />
+        <activity android:name="com.sm.syspago.se.card.MifareAuthedByPSAMActivity" />
+        <activity android:name="com.sm.syspago.se.card.SLE4442_4428Actviity" />
+        <activity android:name="com.sm.syspago.se.card.AT24CActivity" />
+        <activity android:name="com.sm.syspago.se.card.AT88SCActivity" />
+        <activity android:name="com.sm.syspago.se.card.CTX512Activity" />
+        <activity android:name="com.sm.syspago.se.card.SRIActivity" />
+        <activity android:name="com.sm.syspago.se.card.CtrCodeAndMultiApduActivity" />
+        <activity android:name="com.sm.syspago.se.card.GetCardExistStatusActivity" />
+        <activity android:name="com.sm.syspago.se.card.HCETestActivity" />
+        <activity android:name="com.sm.syspago.se.card.PingActivity" />
+        <activity android:name="com.sm.syspago.se.card.InnovatronActivity" />
+        <activity android:name="com.sm.syspago.se.security.SecurityActivity" />
+        <activity android:name="com.sm.syspago.se.security.SaveKeyPlainTextActivity" />
+        <activity android:name="com.sm.syspago.se.security.SaveKeyCipherTextActivity" />
+        <activity android:name="com.sm.syspago.se.security.InjectPlainTextKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.InjectCiphertextKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.CalcMacActivity" />
+        <activity android:name="com.sm.syspago.se.security.DataEncryptActivity" />
+        <activity android:name="com.sm.syspago.se.security.DataDecryptActivity" />
+        <activity android:name="com.sm.syspago.se.security.GetEncryptBySerialNumberActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptSaveKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptCalcMacActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptDataEncryptActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptDataDecryptActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptKSNOperateActivity" />
+        <activity android:name="com.sm.syspago.se.security.RSATestActivity" />
+        <activity android:name="com.sm.syspago.se.security.RSARecoverActivity" />
+        <activity android:name="com.sm.syspago.se.security.SaveTR31KeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.DeleteKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.DukptAesSaveKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.SM2TestActivity" />
+        <activity android:name="com.sm.syspago.se.security.CalcHashActivity" />
+        <activity android:name="com.sm.syspago.se.security.HsmAndDeviceCertificateTestActivity" />
+        <activity android:name="com.sm.syspago.se.security.DeviceCertPvkTestActivity" />
+        <activity android:name="com.sm.syspago.se.security.InjectDeviceCertPvkActivity" />
+        <activity android:name="com.sm.syspago.se.security.GetDeviceCertificateActivity" />
+        <activity android:name="com.sm.syspago.se.security.DevicePvkRecoverActivity" />
+        <activity android:name="com.sm.syspago.se.security.DeviceCertManagerActivity" />
+        <activity android:name="com.sm.syspago.se.security.HsmKeyShareTestActivity" />
+        <activity android:name="com.sm.syspago.se.security.HsmRsaTestActivity" />
+        <activity android:name="com.sm.syspago.se.security.GetKeyCheckValueActivity" />
+        <activity android:name="com.sm.syspago.se.security.APACSMacTestActivity" />
+        <activity android:name="com.sm.syspago.se.security.HsmSaveKeyUnderKEKActivity" />
+        <activity android:name="com.sm.syspago.se.security.HsmExportKeyUnderKEKActivity" />
+        <activity android:name="com.sm.syspago.se.security.SaveKeyCipherTextUnderRsaActivity" />
+        <activity android:name="com.sm.syspago.se.security.InjectCiphertextKeyUnderRsaActivity" />
+        <activity android:name="com.sm.syspago.se.security.InjectSymKeyActivity" />
+        <activity android:name="com.sm.syspago.se.security.GetSetDeviceCertificateActivity" />
+        <activity android:name="com.sm.syspago.se.security.TR34TestActivity" />
+        <activity android:name="com.sm.syspago.se.pin.PinActivity" />
+        <activity android:name="com.sm.syspago.se.pin.PinPadActivity" />
+        <activity android:name="com.sm.syspago.se.pin.CustomizedPinPadActivity" />
+        <activity android:name="com.sm.syspago.se.pin.CustomizedPinPadActivityForBanjul" />
+        <activity android:name="com.sm.syspago.se.pin.VisualImpairmentPinActivity" />
+        <activity android:name="com.sm.syspago.se.pin.CustomizedVisualImpairmentPinActivity" />
+        <activity android:name="com.sm.syspago.se.pin.StartInputPinActivity" />
+        <activity android:name="com.sm.syspago.se.emv.EMVActivity" />
+        <activity android:name="com.sm.syspago.se.emv.ICProcessActivity" />
+        <activity android:name="com.sm.syspago.se.emv.RuPayCardActivity" />
+        <activity android:name="com.sm.syspago.se.emv.MagProcessActivity" />
+        <activity android:name="com.sm.syspago.se.emv.TossEmvActivity" />
+        <activity android:name="com.sm.syspago.se.emv.EmvOtherActivity" />
+        <activity android:name="com.sm.syspago.se.emv.EMVTestSaveAidCapkActivity" />
+        <activity android:name="com.sm.syspago.se.emv.VisualImpairmentProcessActivity" />
+        <activity android:name="com.sm.syspago.se.tax.TaxTestActivity" />
+        <activity android:name="com.sm.syspago.se.print.PrintActivity" />
+        <activity android:name="com.sm.syspago.se.print.PrintTextActivity" />
+        <activity android:name="com.sm.syspago.se.print.PrintConfigActivity" />
+        <activity android:name="com.sm.syspago.se.print.PrintBitmapActivity" />
+        <activity android:name="com.sm.syspago.se.etc.ETCActivity" />
+        <activity
+            android:name="com.sm.syspago.se.etc.I2CDataExchangeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.sm.syspago.se.etc.SearchETCDeviceActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.sm.syspago.se.etc.ETCStressTestActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.sm.syspago.se.etc.ETCTradeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.sm.syspago.se.m112.M112Activity" />
+        <activity android:name="com.sm.syspago.se.other.OtherActivity" />
+        <activity android:name="com.sm.syspago.se.other.VersionActivity" />
+        <activity android:name="com.sm.syspago.se.other.LanguageActivity" />
+        <activity android:name="com.sm.syspago.se.other.TamperLogActivity" />
+        <activity android:name="com.sm.syspago.se.other.MultiThreadTestActivity" />
+        <activity android:name="com.sm.syspago.se.other.ESignatureActivity" />
+        <activity android:name="com.sm.syspago.se.other.ScreenActivity" />
+        <activity android:name="com.sm.syspago.se.other.GB2312Activity" />
+        <activity android:name="com.sm.syspago.se.other.SetTimeDateActivity" />
+        <activity android:name="com.sm.syspago.se.other.SettingActivity" />
+        <activity android:name="com.sm.syspago.se.other.DeviceCommActivity" />
+        <activity android:name="com.sm.syspago.se.other.PCDParamActivity" />
+        <activity android:name="com.sm.syspago.se.other.CardPollIntervalTimeActivity" />
+        <activity android:name="com.sm.syspago.se.other.MagCardRoundPollTimesActivity" />
+        <activity android:name="com.sm.syspago.se.scan.ScanActivity" />
+        <activity android:name="com.sm.syspago.se.scan.ScanResultActivity" />
+        <activity android:name="com.sm.syspago.se.scan.BarcodeActivity" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.sm.syspago.se.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
